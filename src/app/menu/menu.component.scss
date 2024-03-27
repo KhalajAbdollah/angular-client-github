@@ -1,0 +1,25 @@
+.hidden {
+  display: none;
+}
+.space-y-2 {
+  background-color: rgb(106, 107, 107);
+}
+.top-sidebar{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.list-item {
+  padding: 8px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: #dfdfdf;
+  border: none;
+}
+.button-list{
+  border: none;
+  background-color: rgb(106, 107, 107);
+}

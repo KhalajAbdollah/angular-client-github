@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+}
+
+.card-column {
+    flex: 1;
+    margin: 0px; /* مارجین بین دو کارت */
+    padding: 0%;
+}
+
+.sidemargin{
+    padding-left: 19%;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-item {
+    margin-right: 10px; /* فاصله بین المان‌ها */
+  }
+.footer-item{
+    padding-left: 50px;
+}
+.footer-item {
+    text-decoration: none; /* حذف خط زیر کلمه */
+    position: relative; /* تنظیم موقعیت نسبی برای ایجاد خط زیر حروف */
+  }
+  
+  .footer-item::after {
+    content: ''; /* ایجاد محتوایی برای خط زیر حروف */
+    position: absolute; /* تنظیم موقعیت مطلق برای خط زیر حروف */
+    left: 0; /* تنظیم موقعیت شروع خط زیر حروف از سمت چپ */
+    bottom: -2px; /* تنظیم موقعیت پایان خط زیر حروف از سمت پایین */
+    width: 100%; /* تنظیم عرض خط زیر حروف برابر با عرض لینک */
+    height: 1px; /* تنظیم ضخامت خط زیر حروف */
+    background-color: transparent; /* تنظیم رنگ پیش‌فرض خط زیر حروف */
+    transition: background-color 0.3s; /* اعمال انیمیشن برای تغییر رنگ خط زیر حروف */
+  }
+  
+  .footer-item:hover::after {
+    background-color: #000; /* تغییر رنگ خط زیر حروف به هنگام هاور */
+  }
+  

@@ -1,0 +1,15 @@
+<mat-card class="example-card">
+<input class="input-search" type="text" [(ngModel)]="username" placeholder="Enter username" [style.color]="'white'">
+
+<button class="button-click" (click)="getRepositories()">Search</button>
+<div>
+<div *ngIf="repositories.length === 0">
+  <p>No repositories found for the provided username.</p>
+</div>
+<div *ngFor="let repo of repositories">
+  <p class="name-repository">Name: {{ repo.name }}</p>
+  <p>Description: {{ repo.description }}</p>
+  <hr>
+</div>
+</div>
+</mat-card>

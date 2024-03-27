@@ -1,0 +1,21 @@
+.example-card {
+    max-width: 380px;
+  }
+.name-repository{
+  background-color: rgb(30, 210, 207);
+}
+.button-click{
+  background-color: rgb(77, 1, 149);
+  color: aliceblue;
+}
+.button-click:hover{
+  background-color: rgb(153, 170, 231);
+  color: black;
+}
+.input-search{
+  background-color: rgb(135, 135, 199);
+  color: white;
+}
+::placeholder {
+  color: white;
+}
